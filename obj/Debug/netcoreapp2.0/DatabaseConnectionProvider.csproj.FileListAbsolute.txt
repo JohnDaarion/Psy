@@ -1,0 +1,11 @@
+D:\dokumenty\swiezaki-backendAAA\bin\Debug\netcoreapp2.0\DatabaseConnectionProvider.deps.json
+D:\dokumenty\swiezaki-backendAAA\bin\Debug\netcoreapp2.0\DatabaseConnectionProvider.runtimeconfig.json
+D:\dokumenty\swiezaki-backendAAA\bin\Debug\netcoreapp2.0\DatabaseConnectionProvider.runtimeconfig.dev.json
+D:\dokumenty\swiezaki-backendAAA\bin\Debug\netcoreapp2.0\DatabaseConnectionProvider.dll
+D:\dokumenty\swiezaki-backendAAA\bin\Debug\netcoreapp2.0\DatabaseConnectionProvider.pdb
+D:\dokumenty\swiezaki-backendAAA\obj\Debug\netcoreapp2.0\DatabaseConnectionProvider.csprojResolveAssemblyReference.cache
+D:\dokumenty\swiezaki-backendAAA\obj\Debug\netcoreapp2.0\DatabaseConnectionProvider.csproj.CoreCompileInputs.cache
+D:\dokumenty\swiezaki-backendAAA\obj\Debug\netcoreapp2.0\DatabaseConnectionProvider.AssemblyInfoInputs.cache
+D:\dokumenty\swiezaki-backendAAA\obj\Debug\netcoreapp2.0\DatabaseConnectionProvider.AssemblyInfo.cs
+D:\dokumenty\swiezaki-backendAAA\obj\Debug\netcoreapp2.0\DatabaseConnectionProvider.dll
+D:\dokumenty\swiezaki-backendAAA\obj\Debug\netcoreapp2.0\DatabaseConnectionProvider.pdb
