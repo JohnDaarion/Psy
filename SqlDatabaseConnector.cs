@@ -13,7 +13,7 @@ namespace DatabaseConnectionProvider
             Connector = new MySqlConnection
             {
                 ConnectionString =
-                "Server=psymysql;" +
+                "Server=mysql://psymysql;" +
                 "Port=3306;" +
                 "Uid=root;" +
                 "Pwd=usbw;"
