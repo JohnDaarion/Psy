@@ -24,7 +24,7 @@ namespace DatabaseConnectionProvider.Controllers
             }
             catch (Exception e)
             {
-                return "Baza wywaliła";
+                return e.Message;
             }
 
             return "Zresetowano bazę danych";
