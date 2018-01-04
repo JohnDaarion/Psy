@@ -13,7 +13,7 @@ namespace DatabaseConnectionProvider
             Connector = new MySqlConnection
             {
                 ConnectionString =
-                "Server=mysql;" +
+                "Server=10.128.0.187;" +
                 "Port=3306;" +
                 "Uid=root;" +
                 "Pwd=usbw;"
