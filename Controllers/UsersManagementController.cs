@@ -12,13 +12,20 @@ namespace DatabaseConnectionProvider.Controllers
         [Route("ResetDataBase")]
         public string GetResetDataBase()
         {
-            var database = new SqlDatabaseConnector();
-            database.Connector.Open();
-            string resetDatabaseQuery = "CREATE DATABASE IF NOT EXISTS Swierzaki; USE Swierzaki; DROP TABLE IF EXISTS Persons; CREATE TABLE Persons (PersonID int NOT NULL PRIMARY KEY AUTO_INCREMENT, Nick varchar(255), Email varchar(255), Password varchar(255) ); INSERT INTO Persons VALUES(null, 'Muffy', 'ala@wp.pl', 'AAA'); INSERT INTO Persons VALUES(null, 'Admin', 'kot@wp.pl', 'AAA');";
-            var data = new DataSet();
-            var recreate = new MySqlCommand(resetDatabaseQuery, database.Connector).ExecuteNonQuery();
+            try
+            {
+                var database = new SqlDatabaseConnector();
+                database.Connector.Open();
+                string resetDatabaseQuery = "CREATE DATABASE IF NOT EXISTS Swierzaki; USE Swierzaki; DROP TABLE IF EXISTS Persons; CREATE TABLE Persons (PersonID int NOT NULL PRIMARY KEY AUTO_INCREMENT, Nick varchar(255), Email varchar(255), Password varchar(255) ); INSERT INTO Persons VALUES(null, 'Muffy', 'ala@wp.pl', 'AAA'); INSERT INTO Persons VALUES(null, 'Admin', 'kot@wp.pl', 'AAA');";
+                var data = new DataSet();
+                var recreate = new MySqlCommand(resetDatabaseQuery, database.Connector).ExecuteNonQuery();
 
-            database.Connector.Close();
+                database.Connector.Close();
+            }
+            catch (Exception e)
+            {
+                return "Baza wywaliła";
+            }
 
             return "Zresetowano bazę danych";
         }
